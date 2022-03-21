@@ -30,6 +30,8 @@
 - ⚡️ Next.js 12
 - ⚛️ React 17
 - ⛑ TypeScript
+- 🌱 Tailwind
+- 💻 GTM & FacebookPixel
 - 📏 ESLint — Find and fix problems in your code
 - 💖 Prettier — Code Formatter for consistent style
 - 🐶 Husky — For running scripts before committing

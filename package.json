@@ -3,7 +3,16 @@
   "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
   "version": "1.0.0",
   "private": true,
-  "author": "Thobias Vicente <thobias.vicente@bluepaper.io> (@thobiasvic)",
+  "author": [
+    {
+      "name": "Thobias Vicente",
+      "email": "thobias.vicente@bluepaper.io"
+    },
+    {
+      "name": "Caio Domingues",
+      "email": "caio.domingues@bluepaper.io"
+    }
+  ],
   "license": "MIT",
   "keywords": [
     "nextjs",
@@ -22,53 +31,52 @@
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
-      "yarn lint --fix",
-      "yarn format"
+      "eslint --ignore-path .gitignore --fix",
+      "prettier --ignore-path .gitignore --write"
     ]
   },
   "dependencies": {
-    "@headlessui/react": "1.4.0",
-    "@heroicons/react": "1.0.3",
-    "@tailwindcss/forms": "0.3.3",
-    "autoprefixer": "10.3.1",
+    "@headlessui/react": "1.6.4",
+    "@heroicons/react": "1.0.6",
+    "@tailwindcss/forms": "0.5.2",
+    "autoprefixer": "10.4.7",
     "is-absolute-url": "4.0.1",
-    "next": "12.1.0",
-    "postcss": "8.3.6",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-toastify": "7.0.4",
-    "swiper": "8.0.5",
-    "tailwindcss": "2.2.7",
-    "url-join": "4.0.1"
+    "next": "12.1.6",
+    "postcss": "8.4.14",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-toastify": "9.0.2",
+    "tailwindcss": "3.0.24",
+    "url-join": "5.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.2.1",
-    "@commitlint/config-conventional": "16.2.1",
+    "@commitlint/cli": "17.0.1",
+    "@commitlint/config-conventional": "17.0.0",
     "@types/facebook-pixel": "0.0.24",
-    "@types/gtag.js": "0.0.7",
-    "@types/node": "16.11.26",
-    "@types/react": "17.0.40",
-    "@types/react-dom": "17.0.13",
+    "@types/gtag.js": "0.0.10",
+    "@types/node": "16.11.36",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.5",
     "@types/url-join": "4.0.1",
-    "@typescript-eslint/eslint-plugin": "5.15.0",
-    "@typescript-eslint/parser": "5.15.0",
+    "@typescript-eslint/eslint-plugin": "5.26.0",
+    "@typescript-eslint/parser": "5.26.0",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "8.11.0",
-    "eslint-config-airbnb": "18.2.1",
-    "eslint-config-next": "12.1.0",
+    "eslint": "8.16.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-next": "12.1.6",
     "eslint-config-prettier": "8.5.0",
-    "eslint-import-resolver-typescript": "2.5.0",
-    "eslint-plugin-import": "2.23.4",
-    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-import-resolver-typescript": "2.7.1",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.24.0",
-    "eslint-plugin-react-hooks": "4.2.0",
-    "husky": "7.0.4",
-    "lint-staged": "12.3.5",
-    "prettier": "2.5.1",
-    "prettier-plugin-tailwindcss": "0.1.8",
-    "typescript": "4.6.2"
+    "eslint-plugin-react": "7.30.0",
+    "eslint-plugin-react-hooks": "4.5.0",
+    "husky": "8.0.1",
+    "lint-staged": "12.4.2",
+    "prettier": "2.6.2",
+    "prettier-plugin-tailwindcss": "0.1.11",
+    "typescript": "4.7.2"
   },
   "config": {
     "commitizen": {

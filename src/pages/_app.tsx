@@ -1,4 +1,3 @@
-/* eslint-disable import/no-unresolved */
 import { AppProps } from 'next/app';
 import 'tailwindcss/tailwind.css';
 import 'react-toastify/dist/ReactToastify.css';
